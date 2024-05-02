@@ -35,11 +35,11 @@ const Header = () => {
       
       <div className="flex items-center gap-2">
         <LogIn />
-        <div className="text-base font-medium"><SignInButton children="Kirish" mode="modal" forceRedirectUrl="/admin"/></div>
+        <div className="text-base font-medium"><SignInButton children="Kirish" mode="modal" forceRedirectUrl="/"/></div>
       </div>
 
       <div className="flex items-center px-7 py-2 border-[3px] font-medium cursor-pointer text-blue-600 border-blue-600 rounded-md">
-        <p><SignUpButton children="Ro‘yxatdan o’tish" mode="modal" forceRedirectUrl="/admin"/></p>
+        <p><SignUpButton children="Ro‘yxatdan o’tish" mode="modal" forceRedirectUrl="/"/></p>
       </div>
        
       </div>

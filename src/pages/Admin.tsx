@@ -152,7 +152,7 @@ const Admin = () => {
               dashboard
             </NavLink>
             <NavLink
-              to="/admin"
+              to="/"
               className="text-blue-700 hover:bg-blue-700 hover:text-white transition-all duration-200 h-full w-full font-medium uppercase border-[2px] flex justify-center items-center border-blue-600"
             >
               homiylar
