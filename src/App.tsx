@@ -28,7 +28,7 @@ const router = createBrowserRouter(
           </>
         }
       />
-      <Route path="/admin" element={<Admin />} />
+      <Route path="/" element={<Admin />} />
       <Route path="*" element={<NotFound />} />
     </>
   )
