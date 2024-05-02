@@ -19,11 +19,11 @@ const router = createBrowserRouter(
         element={
           <>
             <SignedIn>
-              <Admin />
+              <Home />
             </SignedIn>
 
             <SignedOut>
-              <Home />
+              <Admin />
             </SignedOut>
           </>
         }
