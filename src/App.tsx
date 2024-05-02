@@ -18,12 +18,12 @@ const router = createBrowserRouter(
         index
         element={
           <>
-            <SignedIn>
-              <Home />
+            <SignedIn >
+              <Admin />
             </SignedIn>
 
-            <SignedOut>
-              <Admin />
+            <SignedOut >
+              <Home />
             </SignedOut>
           </>
         }
